@@ -1,0 +1,32 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #cecece;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+table {
+  margin: 1rem 0 !important;
+}
+
+.dropdown .btn-primary {
+  color: #3459e6 !important;
+  background-color: white !important;
+  border-color: #ffffff !important;
+}
